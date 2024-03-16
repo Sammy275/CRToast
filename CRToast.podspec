@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '7.0'
 
-  s.source_files = "CRToast/*.{h,m}"
+  s.source_files = 'Sources/**/*'
   s.public_header_files = "CRToast/CRToast.h", "CRToast/CRToastConfig.h", "CRToast/CRToastManager.h"
 end
